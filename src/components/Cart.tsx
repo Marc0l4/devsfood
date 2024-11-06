@@ -117,7 +117,7 @@ export const Cart = () => {
             <div className="m-3 flex items-center justify-between border-t border-white">
               <div className="mt-2">
                 <p className="text-lg font-bold">{address.name}</p>
-                <div className="flex gap-x-4">
+                <div className="flex flex-col gap-x-4 md:flex-row">
                   <p className="">Rua: {address.street}</p>
                   <p className="">N°: {address.number}</p>
                 </div>
