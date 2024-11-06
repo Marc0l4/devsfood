@@ -82,13 +82,13 @@ export const ModalProduct = ({ data, onClose }: Props) => {
       <div className="flex h-12 items-end justify-center text-white md:justify-end">
         <button
           onClick={() => onClose(false)}
-          className="flex h-10 items-center justify-center rounded-md bg-menu-color p-3 font-bold shadow-md hover:shadow-black hover:transition-all hover:ease-in-out md:text-lg"
+          className="flex h-10 items-center justify-center rounded-md bg-menu-color px-3 py-2 font-bold shadow-md hover:shadow-black hover:transition-all hover:ease-in-out md:p-3 md:text-lg"
         >
           Cancelar
         </button>
         <button
           onClick={handleAddCart}
-          className="ml-2 rounded-md bg-menu-color p-3 font-bold shadow-md transition-all ease-in-out hover:shadow-black hover:transition-all hover:ease-in-out md:ml-5 md:text-xl"
+          className="ml-2 rounded-md bg-menu-color px-3 py-2 font-bold shadow-md transition-all ease-in-out hover:shadow-black hover:transition-all hover:ease-in-out md:ml-5 md:p-3 md:text-xl"
         >
           Adicionar ao Carrinho
         </button>
