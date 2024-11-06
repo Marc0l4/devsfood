@@ -13,7 +13,7 @@ export const Modal = ({ children, status, onClose }: Props) => {
     >
       <div
         onClick={() => onClose(false)}
-        className="mb-80 mr-4 cursor-pointer text-3xl font-bold"
+        className="mb-96 mr-4 cursor-pointer text-3xl font-bold md:mb-80"
       >
         X
       </div>
