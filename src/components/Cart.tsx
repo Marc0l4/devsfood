@@ -43,7 +43,7 @@ export const Cart = () => {
   const linkZap = `https://wa.me//${process.env.NEXT_PUBLIC_ZAP}?text=${encodeURI(message)}`
 
   return (
-    <div className="fixed bottom-0 right-8 overflow-y-auto rounded-tl-xl rounded-tr-xl bg-menu-color">
+    <div className="fixed bottom-0 right-4 overflow-y-auto rounded-tl-xl rounded-tr-xl bg-menu-color md:right-8">
       <div
         onClick={handleCartClick}
         className={`flex h-12 w-72 items-center ${show ? 'justify-between' : 'justify-normal'}`}
