@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: 0 152 13;
+  --menu-color: 19 103 19;
+}
