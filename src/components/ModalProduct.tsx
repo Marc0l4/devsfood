@@ -79,7 +79,7 @@ export const ModalProduct = ({ data, onClose }: Props) => {
           </div>
         </div>
       </div>
-      <div className="flex h-12 items-end justify-center text-white md:justify-end">
+      <div className="mt-3 flex h-12 items-end justify-center text-white md:justify-end">
         <button
           onClick={() => onClose(false)}
           className="flex h-10 items-center justify-center rounded-md bg-menu-color px-3 py-2 font-bold shadow-md hover:shadow-black hover:transition-all hover:ease-in-out md:p-3 md:text-lg"
